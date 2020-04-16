@@ -18,6 +18,10 @@ export default function Header() {
         </ul>
       </div>
       <style jsx global>{`
+        .header {
+          margin-left: -5px;
+        }
+
         .header ul {
           list-style-type: none;
           margin: 0;
