@@ -6,20 +6,30 @@ export default function Header() {
       <div className="header">
         <ul>
           <li>
+            <Link href="/about">
+              <a>About</a>
+            </Link>
+          </li>
+          <li>
+            <Link href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+              <a>Social Media</a>
+            </Link>
+          </li>
+          <li>
             <Link href="/">
               <a>Home</a>
             </Link>
           </li>
           <li>
-            <Link href="/about">
-              <a>About</a>
+            <Link href="/">
+              <a>ACID RAIN AND SMOKE CLOUDS</a>
             </Link>
           </li>
         </ul>
       </div>
       <style jsx global>{`
         .header {
-          margin-left: -5px;
+          margin-left: -0.4%;
         }
 
         .header ul {
@@ -34,7 +44,7 @@ export default function Header() {
         }
 
         .header li {
-          float: left;
+          float: right;
         }
 
         .header li a {
@@ -43,6 +53,10 @@ export default function Header() {
           text-align: center;
           padding: 14px 16px;
           text-decoration: none;
+        }
+
+        .header li:last-child {
+          float: left;
         }
 
         /* Change the link color to #111 (black) on hover */
