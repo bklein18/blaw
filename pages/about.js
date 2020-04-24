@@ -24,8 +24,10 @@ export default function About() {
       </p>
       <hr />
       <h2>
-        ACRES OF COMPUTERS GENERALLY SEE NO MORE THAN 10% UTILIZATION OF THEIR
-        TOTAL UPTIME
+        <em>
+          ACRES OF COMPUTERS GENERALLY SEE NO MORE THAN 10% UTILIZATION OF THEIR
+          TOTAL UPTIME
+        </em>
       </h2>
       <hr />
       <p>
@@ -40,9 +42,85 @@ export default function About() {
         physical, social, ecological, and legal environments of the communities
         they reside in.{" "}
       </p>
+      <h2>For Further Reading</h2>
+      <p className="bibli">
+        <a href="www.theatlantic.com/technology/archive/2015/12/there-are-no-clean-clouds/420744/">
+          Burrington, Ingrid. “The Environmental Toll of a Netflix Binge.” The
+          Atlantic, Atlantic Media Company, 16 Dec. 2015.
+        </a>
+      </p>
+      <p className="bibli">
+        Curry E., Hasan S., White M., Melvin H. (2012) An Environmental
+        Chargeback for Data Center and Cloud Computing Consumers. In: Huusko J.,
+        de Meer H., Klingert S., Somov A. (eds) Energy Efficient Data Centers.
+        E2DC 2012. Lecture Notes in Computer Science, vol 7396. Springer,
+        Berlin, Heidelberg.
+      </p>
+      <p className="bibli">
+        <a href="https://www.nytimes.com/2012/09/23/technology/data-centers-waste-vast-amounts-of-energy-belying-industry-image.html">
+          Glanz, J. (2012, September 23). Power, Pollution and the Internet.
+          Retrieved April 14, 2020.
+        </a>
+      </p>
+      <p>
+        <a href="https://www.nytimes.com/2012/09/24/technology/data-centers-in-rural-washington-state-gobble-power.html">
+          Glanz, J. (2012, September 24). Data Barns in a Farm Town, Gobbling
+          Power and Flexing Muscle. Retrieved April 14, 2020.
+        </a>
+      </p>
+      <p className="bibli">
+        <a href="https://www.nytimes.com/2013/05/14/technology/north-jersey-data-center-industry-blurs-utility-real-estate-boundaries.html">
+          Glanz, J. (2013, May 13). Landlords Double as Energy Brokers.
+          Retrieved April 14, 2020.
+        </a>
+      </p>
+      <p className="bibli">
+        Jiang, S. & Wu, J. (2018). 2-Dominant Resource Fairness:
+        Fairness-Efficiency Tradeoffs in Multi-resource Allocation. 2018 IEEE
+        37th International Performance Computing and Communications Conference
+        (IPCCC), Orlando, FL, USA, 2018, pp. 1-8.
+      </p>
+      <p className="bibli">
+        Marinos A., Briscoe G. (2009) Community Cloud Computing. In: Jaatun
+        M.G., Zhao G., Rong C. (eds) Cloud Computing. CloudCom 2009. Lecture
+        Notes in Computer Science, vol 5931. Springer, Berlin, Heidelberg.
+      </p>
+      <p className="bibli">
+        <a href="https://www.forbes.com/sites/kamranrosen/2020/04/08/data-centers-present-rare-bright-spot-for-tumbling-reit-stocks/#4f83a7933118">
+          Rosen, K. (2020, April 8). Data Centers Present Rare Bright Spot For
+          Tumbling REITStocks. Retrieved April 13, 2020.
+        </a>
+      </p>
+      <p className="bibli">
+        <a href="https://www.dailyherald.com/business/20200411/google-data-centers-secret-cost-billions-of-gallons-of-water">
+          Sattiraju, N. (2020, April 10). Google data centers' secret cost:
+          billions of gallons of water. Retrieved April 13, 2020.
+        </a>
+      </p>
+      <p className="bibli">
+        <a href="https://spectrum.ieee.org/computing/hardware/data-centers-plagued-by-wasteful-computing-game-theory-could-help">
+          Zahedi, S. M., & Lee, B. C. (2020, March 23). Data Centers Are Plagued
+          by Wasteful Computing. Game Theory Could Help. Retrieved April 13,
+          2020.
+        </a>
+      </p>
+      <p className="bibli">
+        Zhao, L., & Du, M., & Chen, L. (2018). A new multi-resource allocation
+        mechanism: A trade off between fairness and efficiency in cloud
+        computing. China Communications, vol. 15, no. 3, pp. 57-77, March 2018.
+      </p>
       <style jsx>{`
         .headerFont {
           font-size: 22px;
+        }
+
+        .bibli {
+          line-height: 30px;
+          text-align: left;
+        }
+
+        a {
+          text-decoration: none;
         }
 
         p {
