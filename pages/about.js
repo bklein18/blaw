@@ -86,6 +86,12 @@ export default function About() {
         Notes in Computer Science, vol 5931. Springer, Berlin, Heidelberg.
       </p>
       <p className="bibli">
+        <a href="https://www.industrialheating.com/articles/93936-methods-of-cooling-an-induction-process">
+          Reed, M. (2020, January 8). Methods of Cooling an Induction Process.
+          Retrieved April 27, 2020
+        </a>
+      </p>
+      <p className="bibli">
         <a href="https://www.forbes.com/sites/kamranrosen/2020/04/08/data-centers-present-rare-bright-spot-for-tumbling-reit-stocks/#4f83a7933118">
           Rosen, K. (2020, April 8). Data Centers Present Rare Bright Spot For
           Tumbling REITStocks. Retrieved April 13, 2020.

@@ -8,6 +8,102 @@ export default function Index() {
         <h2>Ethical Problems</h2>
         <div className="parallax1" />
         <h2>Potential Solutions</h2>
+        <p>
+          After seeing the environmental and ethical consequences of the status
+          quo of cloud computing, it is clear that change is necessary. This
+          change can come from either the companies who own and operate data
+          centers or the government. From the data center side of the solution,
+          the overall goal is reduce wasteful resource consumption. Two
+          different strategies exist in order to accomplish this goal:
+          algorithmic resource assignment and technological advancement.
+        </p>
+        <p>
+          As mentioned before, data centers waste megawatts of power each year.
+          Globally, data centers consume “about 30 billion watts of electricity,
+          roughly equivalent to the output of 30 nuclear power plants,” with the
+          United States consuming between a quarter and a third of this{" "}
+          <a href="https://www.nytimes.com/2012/09/23/technology/data-centers-waste-vast-amounts-of-energy-belying-industry-image.html">
+            amount
+          </a>
+          . However, with such high consumption, 90% or more of the power
+          consumed is only utilized for keeping the server computers powered,
+          meaning data centers in the United States alone are wasting as much as
+          9 billion watts every year. The first solution to this problem is a
+          better use of resources. Most data centers only run at 9-12%
+          utilization, but the National Energy Research Scientific Computing
+          Center at the Lawrence Berkeley National Laboratory in California was
+          able to reach 96.4%{" "}
+          <a href="https://www.nytimes.com/2012/09/23/technology/data-centers-waste-vast-amounts-of-energy-belying-industry-image.html">
+            utilization
+          </a>
+          . While this was achieved by scheduling large computing jobs ahead of
+          time, a strategy most large tech companies would be wary to rely on,
+          significant research has been poured into the field of resource
+          assignment as of late. This research can be applied to significantly
+          shrink the size and number of data centers while still providing the
+          same quality of service.
+        </p>
+        <hr />
+        <h3>
+          <em>
+            ABOUT 30 BILLION WATTS OF ELECTRICITY, ROUGHLY EQUIVALENT OT THE
+            OUTPUT OF 30 NUCLEAR POWER PLANTS WITH THE UNITED STATES CONSUMING
+            BETWEEN A QUARTER AND A THIRD OF THIS AMOUNT
+          </em>
+        </h3>
+        <hr />
+        <p>
+          The first theory of resource allocation on which many others are based
+          is Dominant Resource Fairness (DRF). DRF allocates users of a cloud
+          computing service the resources for which their demand is highest,
+          such as bandwidth, memory, and computer cores, and every other
+          resource in proportion. While this theory improves on prior theories
+          which attempted to package all of these resources into one, it still
+          leaves many available resources underused. To improve upon DRF, Suhan
+          Jiang and Jie Wu introduced 2-Dominant Resource Fairness{" "}
+          <a href="https://doi-org.libproxy.unl.edu/10.1109/PCCC.2018.8711140">
+            (2DRF)
+          </a>
+          , an algorithm which expands the consideration of DRF to the two
+          resources for which a user has the highest demand. Additionally, this
+          algorithm can be expanded to consider a number <i>k</i> resources to
+          further improve efficiency. Another available algorithm is Dominant
+          Resource with Bottlenecked Fairness{" "}
+          <a href="https://doi-org.libproxy.unl.edu/10.1109/CC.2018.8331991">
+            (DRBF)
+          </a>
+          , an algorithm which expands upon DRF to organize users demands into
+          different queues and divide resources evenly among these queues. These
+          algorithms, 2DRF and DBRF, and many more like them could be used to
+          reduce the number of servers required for a data center to operate
+          efficiently, which would give companies which operate data centers the
+          ability to eventually shrink the size of their data centers.
+        </p>
+        <hr />
+        <h3>
+          <em>
+            DATA CENTERS OFTEN BULLY LOCAL WAATER UTILITIES WITH REQUEST OF 1.46
+            BILLION GALLONS OF WATER A YEAR
+          </em>
+        </h3>
+        <hr />
+        <p>
+          The second avenue for data centers to reduce their resource
+          consumption is through technological advancements, both in their
+          cooling and backup power supplies. In an investigation of data centers
+          in the southwest region, an area that is historically drought-ridden
+          where careful water management is key, data centers often bully local
+          water utilities with requests of 1.46 billion gallons of water a year.
+          However, this water is used to cool servers in a particularly wasteful
+          method of cooling: evaporative cooling. Rather trying to reduce or
+          eliminate water consumption, such as with a hybrid air-cooled chiller
+          with free{" "}
+          <a href="https://www.industrialheating.com/articles/93936-methods-of-cooling-an-induction-process">
+            cooler
+          </a>{" "}
+          (a method of cooling that requires no water), companies draw enough
+          water for a small city and literally watch it disappear into thin air.
+        </p>
         <div className="parallax2" />
         <h2>Policy Proposals</h2>
         <p>
