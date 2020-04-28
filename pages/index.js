@@ -6,6 +6,111 @@ export default function Index() {
       <MainLayout title="ACID RAIN AND SMOKE CLOUDS">
         <h1>ACID RAIN AND SMOKE CLOUDS</h1>
         <h2>Ethical Problems</h2>
+        <p>
+          We first examine the ethics of data centers under a utilitarian
+          framework, that is we look at the use of data centers in the context
+          of their consequences. A couple of notes on this framework: We use
+          well-being as the calculus for weighting the consequences of data
+          centers, and more specifically the well-being of the group, society
+          and cities rather than that of specific individuals. Further, as we
+          consider the ethics of the actions of specific companies building and
+          utilizing these data centers, we look to foreseeable consequences
+          rather than the actual consequences. (In the cases outlined below
+          there does not seem to be much distinction between the two.) Finally,
+          we are concerned with act utilitarianism rather than rule
+          utilitarianism. In other words, we look to the specific consequences
+          of the action’s firms take surrounding data centers, rather than the
+          general consequences of such actions.
+        </p>
+        <p>
+          Undeniably, data centers drive the modern economy. Large data banks
+          are crucial for any business operating in the cloud or with cloud
+          services. These businesses provide valuable services to people
+          globally. The net impact of data centers in and of themselves is
+          almost certainly positive. Thus, the ethical question we focus on, is
+          the usage of these data centers, particularly those of large companies
+          that provide cloud services to billions such as Microsoft, Google and
+          Amazon, consistent with a utilitarian framework.{" "}
+        </p>
+        <hr />
+        <h3>
+          <em>
+            COMPANIES OFTEN FOCUS ON PROMOTING THE CLEAN ENERGY SOURCES USED BY
+            THEIR DATA CENTERS WHILE COVERING UP AND IGNORING OTHER
+            ENVIRONMENTAL HARMS RESULTING FROM THEIR USE
+          </em>
+        </h3>
+        <hr />
+        <h3>Signaling</h3>
+        <p>
+          To begin, these data centers require a massive amount of energy
+          usage.  One{" "}
+          <a href="https://eta.lbl.gov/publications/united-states-data-center-energy">
+            report
+          </a>{" "}
+          found that data centers accounted for 1.8% of total U.S. electricity
+          consumption in 2014.  Unfortunately, these data centers are often
+          powered by{" "}
+          <a href="https://www.datacenterknowledge.com/energy/greenpeace-accuses-aws-fueling-virginia-data-center-growth-dirty-energy">
+            nonrenewable energy sources
+          </a>
+          . In the face of complaints from organizations such as Greenpeace,
+          companies like{" "}
+          <a href="https://www.google.com/about/datacenters/renewable/">
+            Google
+          </a>{" "}
+          and{" "}
+          <a href="https://www.theatlantic.com/technology/archive/2015/12/there-are-no-clean-clouds/420744/">
+            Facebook
+          </a>{" "}
+          have pledged to move to powering their data centers entirely with
+          renewable energy sources. Further, these companies can often act as
+          the impetus for meaningful policy around renewable energy.  For
+          example, Google facilitating the creation of a new renewable energy
+          program at{" "}
+          <a href="https://www.theatlantic.com/technology/archive/2015/12/there-are-no-clean-clouds/420744/">
+            Duke
+          </a>
+          . However the overall efficacy of this signaling in creating
+          sustainability is{" "}
+          <a href="https://www.mdpi.com/2071-1050/10/11/4172/pdf">
+            questionable
+          </a>
+          . Moreover, the study from the Multidisciplinary Digital Publishing
+          Institute found that this signaling can be counterproductive when
+          corporations are found to be dishonest in their proposed support of
+          sustainability. That has been the case in the context of datacenters.
+          Companies often focus on promoting the clean energy sources used by
+          their data centers while covering up and ignoring other environmental
+          harms resulting from their use. Google for example, consumes enormous
+          amounts of water in order to cool their{" "}
+          <a href="https://www.dailyherald.com/business/20200411/google-data-centers-secret-cost-billions-of-gallons-of-water">
+            data centers
+          </a>
+          . Another revealing case comes from a now infamous{" "}
+          <a href="https://www.nytimes.com/2012/09/24/technology/data-centers-in-rural-washington-state-gobble-power.html">
+            incident
+          </a>{" "}
+          in 2012 when Microsoft threatened to burn inordinate amounts of excess
+          power in its data center to avoid paying a fine for overestimating
+          consumption from the local power utility organization. These instances
+          of major data center companies ignoring environmental considerations
+          often undermines the power any signaling effect may have in moving
+          towards sustainable initiatives.
+        </p>
+        <h3>Wasteful Consumption</h3>
+        <p>
+          Beyond the muddled impact of the signaling effect, the more direct
+          harm from these data centers originates from their inefficient use of
+          energy.  Regardless of the source of energy, data centers often
+          continue to operate at{" "}
+          <a href="https://www.nytimes.com/2012/09/23/technology/data-centers-waste-vast-amounts-of-energy-belying-industry-image.html">
+            full capacity
+          </a>
+          , even when it’s not needed to do so. Further, as we explain more
+          extensively below, there are many ways to mitigate the inefficiencies
+          in this approach, but companies continue to ignore them.
+        </p>
         <div className="parallax1" />
         <h2>Potential Solutions</h2>
         <p>
