@@ -11,9 +11,13 @@ export default function Header() {
             </Link>
           </li>
           <li>
-            <Link href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
-              <a>Social Media</a>
-            </Link>
+            <a href="#policy">Policy Proposals</a>
+          </li>
+          <li>
+            <a href="#solutions">Potential Solutions</a>
+          </li>
+          <li>
+            <a href="#ethics">Ethical Considerations</a>
           </li>
           <li>
             <Link href="/">

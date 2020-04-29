@@ -5,7 +5,7 @@ export default function Index() {
     <>
       <MainLayout title="ACID RAIN AND SMOKE CLOUDS">
         <h1>ACID RAIN AND SMOKE CLOUDS</h1>
-        <h2>Ethical Problems</h2>
+        <h2 id="ethics">Ethical Problems</h2>
         <p>
           We first examine the ethics of data centers under a utilitarian
           framework, that is we look at the use of data centers in the context
@@ -112,7 +112,7 @@ export default function Index() {
           in this approach, but companies continue to ignore them.
         </p>
         <div className="parallax1" />
-        <h2>Potential Solutions</h2>
+        <h2 id="solutions">Potential Solutions</h2>
         <p>
           After seeing the environmental and ethical consequences of the status
           quo of cloud computing, it is clear that change is necessary. This
@@ -210,7 +210,7 @@ export default function Index() {
           water for a small city and literally watch it disappear into thin air.
         </p>
         <div className="parallax2" />
-        <h2>Policy Proposals</h2>
+        <h2 id="policy">Policy Proposals</h2>
         <p>
           There are three primary areas in which public policy needs to
           progress:
