@@ -338,9 +338,26 @@ export default function Index() {
         </ol>
       </MainLayout>
       <style jsx>{`
+        h1 {
+          margin-bottom: 3em;
+        }
+
+        h2 {
+          margin-bottom: 2em;
+        }
+
+        h3 {
+          margin-bottom: 1em;
+        }
+
+        hr {
+          margin: 3em 0;
+        }
+
         p {
-          margin: 0 10% 1em;
+          margin: 1em 10%;
           text-align: justify;
+          line-height: 2em;
         }
 
         ol {
@@ -350,6 +367,7 @@ export default function Index() {
 
         ol > li {
           margin-bottom: 1em;
+          line-height: 2em;
         }
 
         a {
