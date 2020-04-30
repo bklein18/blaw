@@ -11,26 +11,27 @@ export default function Index() {
           framework, that is we look at the use of data centers in the context
           of their consequences. A couple of notes on this framework: We use
           well-being as the calculus for weighting the consequences of data
-          centers, and more specifically the well-being of the group, society
-          and cities rather than that of specific individuals. Further, as we
-          consider the ethics of the actions of specific companies building and
-          utilizing these data centers, we look to foreseeable consequences
-          rather than the actual consequences. (In the cases outlined below
-          there does not seem to be much distinction between the two.) Finally,
-          we are concerned with act utilitarianism rather than rule
-          utilitarianism. In other words, we look to the specific consequences
-          of the action’s firms take surrounding data centers, rather than the
-          general consequences of such actions.
+          centers, and more specifically the well-being and society rather than
+          that of specific individuals. Further, as we consider the ethics of
+          the actions of specific companies building and utilizing these data
+          centers, we look to foreseeable consequences rather than the actual
+          consequences. (In the cases outlined below there does not seem to be
+          much distinction between the two.) Finally, we are concerned with act
+          utilitarianism rather than rule utilitarianism. In other words, we
+          look to the specific consequences of the action’s firms take
+          surrounding data centers, rather than the general consequences of such
+          actions.
         </p>
         <p>
-          Undeniably, data centers drive the modern economy. Large data banks
-          are crucial for any business operating in the cloud or with cloud
-          services. These businesses provide valuable services to people
-          globally. The net impact of data centers in and of themselves is
-          almost certainly positive. Thus, the ethical question we focus on, is
-          the usage of these data centers, particularly those of large companies
-          that provide cloud services to billions such as Microsoft, Google and
-          Amazon, consistent with a utilitarian framework.{" "}
+          Undeniably, data centers are one of the main drivers of the modern
+          economy. Large data banks are crucial for any business operating in
+          the cloud or with cloud services. These businesses provide valuable
+          services to people globally. The net impact of data centers in and of
+          themselves is almost certainly positive in terms of their consequences
+          to human well-being. Therefore, we focus on analyzing the specific
+          practices companies, especially large companies that provide cloud
+          services to billions such as Microsoft, Google and Amazon, under the
+          utilitarian framework outlined above.
         </p>
         <hr />
         <h3>
@@ -71,13 +72,15 @@ export default function Index() {
           <a href="https://www.theatlantic.com/technology/archive/2015/12/there-are-no-clean-clouds/420744/">
             Duke
           </a>
-          . However the overall efficacy of this signaling in creating
+          , and Facebook’s push for renewable energy in their data centers lead
+          to a change from a nuclear power plant initiative to wind energy in
+          Iowa. However the overall efficacy of this signaling in creating
           sustainability is{" "}
           <a href="https://www.mdpi.com/2071-1050/10/11/4172/pdf">
             questionable
           </a>
           . Moreover, the study from the Multidisciplinary Digital Publishing
-          Institute found that this signaling can be counterproductive when
+          Institute found that this signaling can even be counterproductive when
           corporations are found to be dishonest in their proposed support of
           sustainability. That has been the case in the context of datacenters.
           Companies often focus on promoting the clean energy sources used by
@@ -107,9 +110,54 @@ export default function Index() {
           <a href="https://www.nytimes.com/2012/09/23/technology/data-centers-waste-vast-amounts-of-energy-belying-industry-image.html">
             full capacity
           </a>
-          , even when it’s not needed to do so. Further, as we explain more
-          extensively below, there are many ways to mitigate the inefficiencies
-          in this approach, but companies continue to ignore them.
+          , even when it’s not needed to do so. Data centers contributed about
+          <a href="https://fortune.com/2019/09/18/internet-cloud-server-data-center-energy-consumption-renewable-coal/">
+            0.3% of global carbon emissions in 2018
+          </a>{" "}
+          , yet only about 10% of the energy used by them was actually needed
+          for their operations.  Given the{" "}
+          <a href="https://www.reuters.com/article/us-iea-emissions/global-carbon-emissions-hit-record-high-in-2018-iea-idUSKCN1R7005">
+            33.1 billion tons
+          </a>{" "}
+          of carbon emissions in 2018, this translates to nearly 100 million
+          tons of unneeded carbon emissions. Beyond the climate cost, the
+          inefficiencies with how companies operate their data centers leads to
+          a severe problem with{" "}
+          <a href="https://www.networkworld.com/article/3330650/poor-data-center-configuration-leads-to-severe-waste-problem.html">
+            e-waste
+          </a>
+          . E-waste is rarely recycled and instead left in dumping grounds,
+          largely in South and East Asia, causing severe harms to the local
+          populace.  One example comes from the Chinese city of{" "}
+          <a href="https://www.prb.org/e-waste/">Guiyu</a> where studies have
+          found 80% of children experience respiratory ailments due to the waste
+          there. Further, as we explain more extensively below, there are many
+          ways to mitigate the inefficiencies in this approach, but companies
+          continue to ignore them.
+        </p>
+        <h3>Quantifying the Impact</h3>
+        <p>
+          Going back to our framework at the top, we can weigh the consequences
+          of how companies operate these data centers.  On one hand, the choice
+          to move towards renewable sources of power for the data centers has
+          led to some positive impact in terms of spurring more renewable energy
+          implementations.  On the other, the extent of this effect is mitigated
+          by the hypocritical actions these companies take with their data
+          centers in regards to other environmental concerns. The more direct
+          negative consequences, to the environment can be hard quantify.  One
+          study from{" "}
+          <a href="http://www.ox.ac.uk/news/2017-01-13-measuring-%E2%80%98true-social-cost%E2%80%99-carbon-dioxide-emissions">
+            Oxford
+          </a>{" "}
+          found that every extra metric ton of carbon emissions incurs a social
+          cost of $42 due to harms to the environment. Using the excess carbon
+          emissions we found above, this would mean data centers result in a
+          four billion-dollar cost from energy usage not needed from their
+          operations. These costs, alongside the harms to locals from waste and
+          resource usage, are direct and foreseeable consequences of how data
+          centers operate. From this we conclude that the inefficiencies with
+          which companies run their data centers is immoral and thus we focus on
+          the solutions and policy considerations of that below.
         </p>
         <div className="parallax1" />
         <h2 id="solutions">Potential Solutions</h2>

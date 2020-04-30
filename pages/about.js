@@ -50,6 +50,12 @@ export default function About() {
         </a>
       </p>
       <p className="bibli">
+        <a href="https://www.reuters.com/article/us-iea-emissions/global-carbon-emissions-hit-record-high-in-2018-iea-idUSKCN1R7005">
+          Chestney, N. (2019, March 25). Global carbon emissions hit record high
+          in 2018: IEA.
+        </a>
+      </p>
+      <p className="bibli">
         Curry E., Hasan S., White M., Melvin H. (2012) An Environmental
         Chargeback for Data Center and Cloud Computing Consumers. In: Huusko J.,
         de Meer H., Klingert S., Somov A. (eds) Energy Efficient Data Centers.
@@ -86,6 +92,30 @@ export default function About() {
         Notes in Computer Science, vol 5931. Springer, Berlin, Heidelberg.
       </p>
       <p className="bibli">
+        <a href="https://www.prb.org/e-waste/">
+          McAllister, L. (2013, April 4). The Human and Environmental Effects of
+          E-Waste.
+        </a>
+      </p>
+      <p className="bibli">
+        Moratis, L. Signalling Responsibility? Applying Signalling Theory to the
+        ISO 26000 Standard for Social Responsibility. Sustainability 2018, 10,
+        4172.
+      </p>
+      <p className="bibli">
+        <a href="https://doi.org/10.17226/24651.">
+          National Academies of Sciences, Engineering, and Medicine. 2017.
+          Valuing Climate Damages: Updating Estimation of the Social Cost of
+          Carbon Dioxide. Washington, DC: The National Academies Press.
+        </a>
+      </p>
+      <p className="bibli">
+        <a href="https://www.networkworld.com/article/3330650/poor-data-center-configuration-leads-to-severe-waste-problem.html">
+          Patrizio, A. (2019, January 4). Poor data-center configuration leads
+          to severe waste problem.
+        </a>
+      </p>
+      <p className="bibli">
         <a href="https://www.industrialheating.com/articles/93936-methods-of-cooling-an-induction-process">
           Reed, M. (2020, January 8). Methods of Cooling an Induction Process.
           Retrieved April 27, 2020
@@ -101,6 +131,12 @@ export default function About() {
         <a href="https://www.dailyherald.com/business/20200411/google-data-centers-secret-cost-billions-of-gallons-of-water">
           Sattiraju, N. (2020, April 10). Google data centers' secret cost:
           billions of gallons of water. Retrieved April 13, 2020.
+        </a>
+      </p>
+      <p className="bibli">
+        <a href="https://www.datacenterknowledge.com/energy/greenpeace-accuses-aws-fueling-virginia-data-center-growth-dirty-energy">
+          Sverdlik, Y. (2019, February 15). Greenpeace Accuses AWS of Fueling
+          Virginia Data Center Growth with Dirty Energy.
         </a>
       </p>
       <p className="bibli">
