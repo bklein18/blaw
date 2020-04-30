@@ -8,17 +8,17 @@ export default function Index() {
         <h2 id="ethics">Ethical Problems</h2>
         <p>
           We first examine the ethics of data centers under a utilitarian
-          framework, that is we look at the use of data centers in the context
-          of their consequences. A couple of notes on this framework: We use
-          well-being as the calculus for weighting the consequences of data
-          centers, and more specifically the well-being and society rather than
+          framework; that is, we look at the use of data centers in the context
+          of their consequences. A couple of notes on this framework: we use
+          well-being as the calculus for weighing the consequences of data
+          centers, and more specifically the well-being of society rather than
           that of specific individuals. Further, as we consider the ethics of
           the actions of specific companies building and utilizing these data
           centers, we look to foreseeable consequences rather than the actual
-          consequences. (In the cases outlined below there does not seem to be
+          consequences (in the cases outlined below there does not seem to be
           much distinction between the two.) Finally, we are concerned with act
           utilitarianism rather than rule utilitarianism. In other words, we
-          look to the specific consequences of the action’s firms take
+          look to the specific consequences of the actions firms take
           surrounding data centers, rather than the general consequences of such
           actions.
         </p>
@@ -72,20 +72,20 @@ export default function Index() {
           <a href="https://www.theatlantic.com/technology/archive/2015/12/there-are-no-clean-clouds/420744/">
             Duke
           </a>
-          , and Facebook’s push for renewable energy in their data centers lead
+          , and Facebook’s push for renewable energy in their data centers led
           to a change from a nuclear power plant initiative to wind energy in
-          Iowa. However the overall efficacy of this signaling in creating
+          Iowa. However, the overall efficacy of this signaling in creating
           sustainability is{" "}
           <a href="https://www.mdpi.com/2071-1050/10/11/4172/pdf">
             questionable
           </a>
-          . Moreover, the study from the Multidisciplinary Digital Publishing
+          . Moreover, a study from the Multidisciplinary Digital Publishing
           Institute found that this signaling can even be counterproductive when
           corporations are found to be dishonest in their proposed support of
-          sustainability. That has been the case in the context of datacenters.
+          sustainability. That has been the case in the context of data centers.
           Companies often focus on promoting the clean energy sources used by
           their data centers while covering up and ignoring other environmental
-          harms resulting from their use. Google for example, consumes enormous
+          harms resulting from their use. Google, for example, consumes enormous
           amounts of water in order to cool their{" "}
           <a href="https://www.dailyherald.com/business/20200411/google-data-centers-secret-cost-billions-of-gallons-of-water">
             data centers
@@ -110,17 +110,17 @@ export default function Index() {
           <a href="https://www.nytimes.com/2012/09/23/technology/data-centers-waste-vast-amounts-of-energy-belying-industry-image.html">
             full capacity
           </a>
-          , even when it’s not needed to do so. Data centers contributed about
+          , even when it’s not needed from a business perspective. Data centers contributed about{" "}
           <a href="https://fortune.com/2019/09/18/internet-cloud-server-data-center-energy-consumption-renewable-coal/">
             0.3% of global carbon emissions in 2018
-          </a>{" "}
-          , yet only about 10% of the energy used by them was actually needed
+          </a>
+          , yet only about 10% of the energy used was actually needed
           for their operations.  Given the{" "}
           <a href="https://www.reuters.com/article/us-iea-emissions/global-carbon-emissions-hit-record-high-in-2018-iea-idUSKCN1R7005">
             33.1 billion tons
           </a>{" "}
           of carbon emissions in 2018, this translates to nearly 100 million
-          tons of unneeded carbon emissions. Beyond the climate cost, the
+          tons of unneeded carbon emissions from data centers. Beyond the climate cost, the
           inefficiencies with how companies operate their data centers leads to
           a severe problem with{" "}
           <a href="https://www.networkworld.com/article/3330650/poor-data-center-configuration-leads-to-severe-waste-problem.html">
@@ -152,7 +152,7 @@ export default function Index() {
           found that every extra metric ton of carbon emissions incurs a social
           cost of $42 due to harms to the environment. Using the excess carbon
           emissions we found above, this would mean data centers result in a
-          four billion-dollar cost from energy usage not needed from their
+          $4 billion cost from energy usage not needed from their
           operations. These costs, alongside the harms to locals from waste and
           resource usage, are direct and foreseeable consequences of how data
           centers operate. From this we conclude that the inefficiencies with
@@ -172,8 +172,8 @@ export default function Index() {
         </p>
         <p>
           As mentioned before, data centers waste megawatts of power each year.
-          Globally, data centers consume “about 30 billion watts of electricity,
-          roughly equivalent to the output of 30 nuclear power plants,” with the
+          Globally, data centers consume about 30 billion watts of electricity,
+          roughly equivalent to the output of 30 nuclear power plants, with the
           United States consuming between a quarter and a third of this{" "}
           <a href="https://www.nytimes.com/2012/09/23/technology/data-centers-waste-vast-amounts-of-energy-belying-industry-image.html">
             amount
@@ -200,7 +200,7 @@ export default function Index() {
         <h3>
           <em>
             ABOUT 30 BILLION WATTS OF ELECTRICITY, ROUGHLY EQUIVALENT OT THE
-            OUTPUT OF 30 NUCLEAR POWER PLANTS WITH THE UNITED STATES CONSUMING
+            OUTPUT OF 30 NUCLEAR POWER PLANTS, WITH THE UNITED STATES CONSUMING
             BETWEEN A QUARTER AND A THIRD OF THIS AMOUNT
           </em>
         </h3>
@@ -219,7 +219,7 @@ export default function Index() {
           </a>
           , an algorithm which expands the consideration of DRF to the two
           resources for which a user has the highest demand. Additionally, this
-          algorithm can be expanded to consider a number <i>k</i> resources to
+          algorithm can be expanded further to consider a number <i>k</i> resources to
           further improve efficiency. Another available algorithm is Dominant
           Resource with Bottlenecked Fairness{" "}
           <a href="https://doi-org.libproxy.unl.edu/10.1109/CC.2018.8331991">
@@ -235,22 +235,25 @@ export default function Index() {
         <hr />
         <h3>
           <em>
-            DATA CENTERS OFTEN BULLY LOCAL WAATER UTILITIES WITH REQUEST OF 1.46
+            DATA CENTERS OFTEN BULLY LOCAL WATER UTILITIES WITH REQUESTs OF 1.46
             BILLION GALLONS OF WATER A YEAR
           </em>
         </h3>
         <hr />
         <p>
           The second avenue for data centers to reduce their resource
-          consumption is through technological advancements, both in their
-          cooling and backup power supplies. In an investigation of data centers
-          in the southwest region, an area that is historically drought-ridden
-          where careful water management is key, data centers often bully local
-          water utilities with requests of 1.46 billion gallons of water a year.
-          However, this water is used to cool servers in a particularly wasteful
-          method of cooling: evaporative cooling. Rather trying to reduce or
-          eliminate water consumption, such as with a hybrid air-cooled chiller
-          with free{" "}
+          consumption is through technological advancements, specifically in their
+          cooling. In an investigation of data centers in the southwest region, 
+          an area that is historically drought-ridden where careful water 
+          management is key, data centers often bully local water utilities with 
+          requests of{" "}
+          <a href="https://www.dailyherald.com/business/20200411/google-data-centers-secret-cost-billions-of-gallons-of-water">
+            1.46 billion gallons
+          </a>{" "}
+          of water a year. However, this water is used to cool servers in a 
+          particularly wasteful method of cooling: evaporative cooling. 
+          Rather than trying to reduce or eliminate water consumption, 
+          such as with a hybrid air-cooled chiller with free{" "}
           <a href="https://www.industrialheating.com/articles/93936-methods-of-cooling-an-induction-process">
             cooler
           </a>{" "}
@@ -380,7 +383,7 @@ export default function Index() {
             escape tax liability through changing their classification under tax
             law. By making more stringent regulations as to what types of
             business can be considered REITs, the government can use the tax
-            revenues to actually improve the environment, in whatever way the
+            revenues to actually improve the environment, in whatever way 
             democratically elected leaders see fit for the country.
           </li>
         </ol>
